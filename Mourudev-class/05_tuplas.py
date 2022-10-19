@@ -39,5 +39,5 @@ my_tuple = tuple(my_tuple)
 print(type(my_tuple))
 
 del my_tuple
-print(my_tuple)
+# print(my_tuple) -- NameError: name 'my_tuple' is not defined
 
